@@ -11,7 +11,7 @@ This repo contains a compact, **interpretable** supervised‑learning pipeline t
 
 ## Repository contents
 - `notebook_propre.ipynb` — full pipeline: data I/O, LV reconstruction, feature engineering, model tuning, CV evaluation, and test inference.
-- `challenge_ima205 (2) (1).pdf` — 5‑page write‑up of the method, features, CV setup, and discussion.
+- `report.pdf` — 5‑page write‑up of the method, features, CV setup, and discussion.
 - (generated) `submission_finalfinal.csv` — submission file produced by the notebook.
 
 ## Method overview
