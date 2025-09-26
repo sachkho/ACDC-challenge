@@ -7,7 +7,7 @@ This repo contains a compact, **interpretable** supervised‑learning pipeline t
 - **Small‑data‑friendly**: tree ensembles work well with tabular, low‑sample settings and give straightforward feature importances.
 - **Practical**: robust to missing LV masks thanks to a lightweight **slice‑wise LV reconstruction** inside the myocardium (hole‑filling), enabling a consistent feature set on train and test.
 
-> The overall setup follows the ACDC challenge protocol with ED/ES volumes and partial segmentations; we reconstruct a missing LV mask when needed and train on feature tables derived from the segmentations. See the short report in `challenge_ima205 (2) (1).pdf` for the full narrative and rationale.  
+> The overall setup follows the ACDC challenge protocol with ED/ES volumes and partial segmentations; we reconstruct a missing LV mask when needed and train on feature tables derived from the segmentations. See the short report in `report.pdf` for the full narrative and rationale.  
 
 ## Repository contents
 - `notebook_propre.ipynb` — full pipeline: data I/O, LV reconstruction, feature engineering, model tuning, CV evaluation, and test inference.
@@ -77,7 +77,7 @@ Update the paths in the first cells of the notebook to point to your local folde
 - Given the limited sample size, performance is sensitive to feature quality and class balance; the LV reconstruction and engineered ratios help stabilize generalization.
 
 ## Citing / References
-- Project report: see `challenge_ima205 (2) (1).pdf` for method justification, metrics, and discussion.
+- Project report: see `report.pdf` for method justification, metrics, and discussion.
 - Related paper mentioned in the report: *Automatic Cardiac Disease Assessment on cine‑MRI via Time‑Series Segmentation and Domain‑Specific Features* (Springer, 2017).
 
 ## License
